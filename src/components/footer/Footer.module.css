@@ -28,7 +28,7 @@
   margin-top: 0.5em;
 }
 
-@media (max-width: 620px) {
+@media (max-width: 645px) {
   .footer {
     padding: 40px 0 30px;
   }

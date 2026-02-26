@@ -108,7 +108,7 @@ body {
 
 /* ================== RESPONSIVE ================== */
 
-@media (max-width: 620px) {
+@media (max-width: 645px) {
   .section {
     padding: 40px 0;
   }

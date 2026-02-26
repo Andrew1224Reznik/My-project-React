@@ -22,3 +22,14 @@
 .content_list__item p + p {
   margin-top: 0.5em;
 }
+
+@media (max-width: 645px) {
+  .content_list {
+    max-width: 100%;
+    row-gap: 30px;
+  }
+
+  .content_list__item {
+    font-size: 16px;
+  }
+}
