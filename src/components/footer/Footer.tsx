@@ -12,22 +12,38 @@ const Footer = () => {
         <div className={style.footer__wrapper}>
           <ul className={style.social}>
             <li className={style.social__item}>
-              <a href="#!">
+              <a
+                href="https://t.me/DruDexter"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img src={telegram} alt="Link" width={40} />
               </a>
             </li>
             <li className={style.social__item}>
-              <a href="#!">
+              <a
+                href="mailto:reznik1224@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img src={email} alt="Link" width={43} />
               </a>
             </li>
             <li className={style.social__item}>
-              <a href="#!">
+              <a
+                href="https://github.com/Andrew1224Reznik"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img src={gitHub} alt="Link" width={40} />
               </a>
             </li>
             <li className={style.social__item}>
-              <a href="#!">
+              <a
+                href="https://www.linkedin.com/in/andrii-reznichenko-/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <img src={linkedIn} alt="Link" width={40} />
               </a>
             </li>

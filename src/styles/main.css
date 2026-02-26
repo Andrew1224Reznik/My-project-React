@@ -18,7 +18,7 @@
 
   /* Header */
   --header-text-color: #000;
-  --header-bg-image: url("./../img/header-bg.png");
+  --header-bg: #ffffff;
 
   /* Footer */
   --footer-bg: var(--black);
@@ -48,7 +48,7 @@ body.dark {
   --box-shadow: 0px 5px 35px rgba(0, 0, 0, 0.8);
 
   --header-text-color: #fff;
-  --header-bg-image: url("./../img/header-bg-dark.png");
+  --header-bg: #343434;
 }
 
 /* ================== GLOBAL ================== */
