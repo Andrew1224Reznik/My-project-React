@@ -23,3 +23,9 @@
   line-height: 1.3;
   color: var(--project-card-text);
 }
+
+@media (max-width: 620px) {
+  .project__title {
+    font-size: 22px;
+  }
+}

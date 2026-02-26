@@ -40,3 +40,9 @@
   position: relative;
   z-index: 9;
 }
+
+@media (max-width: 645px) {
+  .dark_mode_btn {
+    order: 0;
+  }
+}

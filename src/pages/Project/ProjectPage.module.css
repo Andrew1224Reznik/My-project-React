@@ -32,3 +32,14 @@
   text-align: center;
   margin-bottom: 30px;
 }
+
+@media (max-width: 620px) {
+  .project-details__desc {
+    margin-bottom: 20px;
+    font-size: 22px;
+  }
+
+  .project_details_text {
+    width: 100%;
+  }
+}

@@ -82,8 +82,16 @@
   transform: scale(1.05);
 }
 
-/* Dark theme */
+@media (max-width: 620px) {
+  .header {
+    min-height: unset;
+  }
 
-:global(body.dark) .header {
-  background-image: url("./../../img/header-bg-dark.png");
+  .header__title {
+    font-size: 30px;
+  }
+
+  .header__title strong {
+    font-size: 40px;
+  }
 }
