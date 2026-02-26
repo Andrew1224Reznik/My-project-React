@@ -5,9 +5,7 @@ import "../../styles/main.css";
 const Home = () => {
   return (
     <>
-      <div className={style.neon_line}></div>
       <Header />
-      <div className={style.neon_line}></div>
       <main className="section">
         <div className="container">
           <ul className={style.content_list}>

@@ -1,29 +1,49 @@
 /* Header */
 
 .header {
-  padding: 40px 0;
+  padding: 40px 0; /* увеличили отступы */
   min-height: 695px;
 
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 
   background-color: var(--header-bg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-
   color: var(--header-text-color);
   text-align: center;
+
+  border-radius: 3px;
+  box-shadow: 0 0 10px #c084fc, 0 0 20px #a855f7, 0 0 30px #9333ea;
+  animation: neonPulse 1.5s infinite alternate;
+}
+
+@keyframes neonPulse {
+  0% {
+    box-shadow: 0 0 5px #a855f7, 0 0 10px #a855f7, 0 0 20px #9333ea;
+    opacity: 0.7;
+  }
+  50% {
+    box-shadow: 0 0 15px #c084fc, 0 0 30px #a855f7, 0 0 40px #9333ea;
+    opacity: 1;
+  }
+  100% {
+    box-shadow: 0 0 5px #a855f7, 0 0 10px #a855f7, 0 0 20px #9333ea;
+    opacity: 0.7;
+  }
 }
 
 .header__wrapper {
   padding: 0 15px;
   max-width: 660px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
 }
 
 .header__title {
-  margin-bottom: 20px;
   font-size: 40px;
   font-weight: 700;
   line-height: 1.4;
@@ -40,7 +60,6 @@
 }
 
 .header__text {
-  margin-bottom: 40px;
   font-size: 18px;
   line-height: 1.333;
 }
@@ -73,6 +92,7 @@
   border-radius: 8px;
   cursor: pointer;
   transition: 0.3s ease;
+  margin-top: 30px;
 }
 
 /* При наведении */
@@ -82,9 +102,14 @@
   transform: scale(1.05);
 }
 
-@media (max-width: 620px) {
+@media (max-width: 645px) {
   .header {
     min-height: unset;
+  }
+
+  .header__wrapper {
+    max-width: unset;
+    gap: 15px;
   }
 
   .header__title {
@@ -93,5 +118,11 @@
 
   .header__title strong {
     font-size: 40px;
+  }
+
+  .btn {
+    font-size: 18px;
+    padding: 10px 25px;
+    margin-top: 20px;
   }
 }
